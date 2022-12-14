@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <h1>Welcome to Coffee App</h1>
-      <SelectedCoffeeBean />
       <SetCoffeeBean coffeeBeans={coffeeBeans}/>
+      <SelectedCoffeeBean />
     </>
   );
 }
